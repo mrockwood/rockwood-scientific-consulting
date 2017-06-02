@@ -1,0 +1,18 @@
+html {
+	font-family: 'Neuton', serif;
+	font-weight: 300;
+	letter-spacing: .0125em;
+}
+
+h1,h2,h3,h4,h5,h6,
+.uk-h1,.uk-h2,.uk-h3,.uk-h4,.uk-h5,.uk-h6 {
+	font-family: inherit;
+}
+
+[class*='uk-column'] > * {
+	break-inside: avoid-column;
+}
+
+.uk-button {
+	border-radius: 30em;
+}
